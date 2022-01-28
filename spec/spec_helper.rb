@@ -1,6 +1,5 @@
-# frozen_string_literal: true
-
 require "card_deck"
+require "card"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
