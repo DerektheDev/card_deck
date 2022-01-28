@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module CardDeck
-  VERSION = "0.1.0"
-end
+# module CardDeck
+#   VERSION = "0.1.0"
+# end
