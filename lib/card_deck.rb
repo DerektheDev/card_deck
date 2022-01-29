@@ -21,12 +21,11 @@ class CardDeck
     @cards.shift # or pop, to get from the other side
   end
 
-  def return!
+  def return! card
     # return a card to the bottom of the deck
     # inverst of push/shift is pop/unshift
-    card_to_return = @cards.shift
-    @cards.push card_to_return
-    card_to_return
+    # card_to_return = @cards.shift
+    @cards.push card
   end
 
   def shuffle!
